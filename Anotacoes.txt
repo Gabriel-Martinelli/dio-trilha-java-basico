@@ -13,3 +13,86 @@
 
 ## Tipos e variáveis
 
+Oito tipos primitivos em Java são: int, byte, short, long, float, double, boolean e char. São armazenados diretamente
+na pilha de memória.
+-Byte, short, int e long se diferenciam pela quantidade de bytes.
+-Float e double também, sendo o double o mais comum.
+
+Declarando variáveis:
+
+<Tipo> <NomeVariavel> <AtribuicaoDeValorOpcional>
+
+Exemplo:
+
+int idade;
+int anoFabricacao = 2021;
+double salarioMinimo = 2500.33;
+
+Tipo float necessita um "f" no final e long com "L", exemplo:
+
+float pi = 3.14f;
+
+long cpf = 12384799823174L;
+
+CONSTANTES são sempre escritas em letra maiúscula, acompanhadas da palavra reservada final. Exemplo:
+
+final double VALOR_DE_PI = 3.14;
+
+-Strings:
+
+String meuNome = "Gabriel Martinelli";
+
+## Operadores
+
+Operadores são símbolos especiais que tem um significado próprio para a linguagem e estão associados a determiandas
+operações.
+
+-Representação de igualdade para declarar valor: =
+-Operadores aritméticos: + (adição), - (subtração), * (mutiplicação), / (divisão), % (módulo)
+-O operador + também serve para concatenação de strings
+-Operador unário de incremento de valor (++)
+-Operador unário de decremento de valor (--)
+-Operador unário de negação (!)
+-Equals compara conteúdos, pode ser usado para ver se objetos são iguais
+
+### Operadores lógicos
+-Operador lógico "E" = &&
+-Operador lógico "OU" = ||
+
+## Métodos
+
+Métodos correspondem a funções ou sub-rotinas disponíveis dentro de uma classe.
+
+-Deve ser nomeado como verbo
+-Seguir o padrão camelCase (todas as letras minúsculas, com exceção da primeira letra da segunda palavra. Exemplos:
+	somar
+	abrirConexao
+	concluirProcessamento
+
+
+
+
+
+
+#### Códigos
+
+ String nomeCompleto = "LINGUAGEM" + "JAVA";
+        System.out.println(nomeCompleto);
+
+        int numero = 5;
+
+        numero = -numero;
+
+        System.out.println(numero);
+
+        //repeticao
+
+        numero++;
+
+        System.out.println(numero);
+
+        //negando boolean
+
+        boolean variavel = true;
+
+        System.out.println(!variavel);
