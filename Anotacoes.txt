@@ -1,0 +1,15 @@
+# Anotações Java Básico
+
+## Anatomia de Classes
+
+- Todo código deve estar entre {}
+- Classes, na maioria das vezes, iniciarão com public class Nome Interativo, e depois as chaves.
+- public static void main -> pode ser acessado por outras classes,  retorna void
+- Toda classe precisa estar dentro do diretório src
+- Todo arquivo .java deve iniciar com letra maiúscula
+- A classe deve possuir o mesmo nome do arquivo .java
+- Variável toda maiúscula já é do tipo final (imutável).
+- Símbolos permitidos são _ e $
+
+## Tipos e variáveis
+
